@@ -1,0 +1,29 @@
+{
+  "name": "yo-project",
+  "version": "1.0.0",
+  "description": "An awesome project!",
+  "repository": "yo-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ..  && ykit server"
+  },
+  "author": "",
+  "license": "ISC",
+  "yo": {
+    "path": "./src/yo-config"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "ykit-config-yo": "^2.0.0",
+    "yo-router": "^1.1.7",
+    "yo3": "^3.0.12"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "react": "^15.6.1",
+    "webpack": "^3.5.3"
+  }
+}
